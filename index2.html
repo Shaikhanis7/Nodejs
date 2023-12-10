@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar with Search</title>
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+     @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@1,300&family=Rubik&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    nav {
+     background:  #9D4BFF;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar-logo {
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+    }
+
+    .search-input {
+      padding: 8px 30px 8px 8px; /* Adjust padding to accommodate the icon */
+      border: none;
+      border-radius: 4px;
+      margin-right: 8px;
+    }
+
+    .search-icon {
+      position: absolute;
+      margin-left: -25px; /* Adjust the margin to position the icon */
+      color: #555; /* Icon color */
+      cursor: pointer;
+    }
+
+    .search-button {
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input{
+        border: none;
+        outline: none;
+        
+        /* height: 25px; */
+        width: 14rem;
+
+    }
+   
+    .icon
+    {
+       position: relative;
+       left: 13.5rem;
+       font-size: 20px;
+       cursor: pointer;
+    }
+
+
+    .links
+    {
+         display: inline-block;
+         position: relative;
+         left: 16rem;
+    }
+
+    .links ul li{
+          display: inline-block;
+    }
+
+    .links ul li a{
+           margin-left: 30px;
+           text-decoration: none;
+           color :aliceblue;
+           font-size: 15px;
+           font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#" class="navbar-logo">NavBar</a>
+
+    <div class="links">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Login</a></li>
+        </ul>
+    </div>
+    <div class="search-bar">
+        <i class='bx bx-search-alt icon'></i>
+      <input type="text" class="search-input" placeholder="Search...">
+    </div>
+  </nav>
+
+  <!-- The rest of your content goes here -->
+
+</body>
+</html>
