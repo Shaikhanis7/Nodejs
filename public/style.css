@@ -1,0 +1,22 @@
+nav{
+    display:  flex;
+    justify-content: space-between;
+}
+
+nav ul
+{
+
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+
+}
+
+nav ul li
+{
+    line-height: 34px ;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
